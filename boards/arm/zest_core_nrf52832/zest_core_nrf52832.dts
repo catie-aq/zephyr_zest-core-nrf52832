@@ -6,6 +6,7 @@
 
 /dts-v1/;
 #include <nordic/nrf52832_qfaa.dtsi>
+#include "zest_core_nrf52832-pinctrl.dtsi"
 
 / {
 	model = "CATIE Zest Core nRF52832 board";
@@ -43,12 +44,16 @@
 	};
 };
 
+&gpio0 {
+	status = "okay";
+};
+
 &uart0 {
 	status = "okay";
-	compatible = "nordic,nrf-uart";
+	compatible = "nordic,nrf-uarte";
 	current-speed = <115200>;
-	tx-pin = <28>;
-	rx-pin = <27>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-names = "default";
 };
 
 &i2c0 {
@@ -56,12 +61,4 @@
 	status = "okay";
 	sda-pin = <26>;
 	scl-pin = <25>;
-};
-
-
-&pwm0 {
-	status = "okay";
-	ch0-pin = <7>;
-	ch1-pin = <8>;
-	ch2-pin = <9>;
 };
