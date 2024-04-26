@@ -10,7 +10,7 @@
 #include "sixtron_connector.dtsi"
 
 / {
-	model = "CATIE Zest Core nRF52832 board";
+	model = "CATIE Zest_Core_nRF52832 board";
 	compatible = "catie,zest-core-nrf52832";
 
 	chosen {
