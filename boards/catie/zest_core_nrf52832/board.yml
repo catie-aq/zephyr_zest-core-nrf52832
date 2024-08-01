@@ -1,0 +1,11 @@
+board:
+  name: zest_core_nrf52832
+  vendor: catie
+  socs:
+    - name: nrf52832
+  revision:
+    format: "major.minor.patch"
+    default: "1.2.1"
+    exact: true
+    revisions:
+      - name: "1.2.1"
