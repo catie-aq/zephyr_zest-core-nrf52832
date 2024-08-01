@@ -1,6 +1,4 @@
-# Zest Core nRF52832 board configuration
-
-# Copyright (c) 2020 CATIE
+# Copyright (c) 2024 CATIE
 # SPDX-License-Identifier: Apache-2.0
 
 if BOARD_ZEST_CORE_NRF52832

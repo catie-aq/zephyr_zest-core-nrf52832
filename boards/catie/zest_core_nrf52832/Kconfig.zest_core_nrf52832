@@ -1,4 +1,4 @@
-# Copyright (c) 2020 CATIE
+# Copyright (c) 2024 CATIE
 # SPDX-License-Identifier: Apache-2.0
 
 config BOARD_ZEST_CORE_NRF52832
