@@ -8,4 +8,5 @@ board:
     default: "1.2.1"
     exact: true
     revisions:
+      - name: "1.1.0"
       - name: "1.2.1"
