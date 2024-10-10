@@ -1,0 +1,15 @@
+identifier: zest_core_nrf52832
+name: Zest_Core_nRF52832
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 64
+flash: 512
+supported:
+  - gpio
+  - counter
+  - i2c
+  - spi
+vendor: catie
