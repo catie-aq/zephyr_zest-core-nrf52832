@@ -1,6 +1,9 @@
 name: "Zephyr Zest_Core_nRF52832 CI/CD"
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
   workflow_dispatch:
 
