@@ -6,6 +6,7 @@
 /dts-v1/;
 #include <nordic/nrf52832_qfaa.dtsi>
 #include "zest_core_nrf52832-pinctrl.dtsi"
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include "sixtron_connector.dtsi"
 
 / {
