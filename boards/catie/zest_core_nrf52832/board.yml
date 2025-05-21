@@ -1,5 +1,6 @@
 board:
   name: zest_core_nrf52832
+  full_name: Zest_Core_nRF52832
   vendor: catie
   socs:
     - name: nrf52832
