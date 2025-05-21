@@ -3,7 +3,4 @@
 
 if BOARD_ZEST_CORE_NRF52832
 
-config BT_CTLR
-	default BT
-
 endif # BOARD_ZEST_CORE_NRF52832
